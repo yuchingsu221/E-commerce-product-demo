@@ -8,3 +8,5 @@
 3.  Linq --> DbSet --> SQL --> Database
 - Linq：var products = context.products.ToList()
 - SQL：select * from Products
+
+4. 使用 "dotnet new gitignore" 看哪些避免上傳到 git
