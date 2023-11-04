@@ -10,3 +10,13 @@
 - SQL：select * from Products
 
 4. 使用 "dotnet new gitignore" 看哪些避免上傳到 git
+
+5. entity framwork 安裝流程
+- dotnet tool install --global dotnet-ef --version 7.0.2
+- dotnet tool list -g 列出安裝的名稱與版本
+- dotnet tool update --global dotnet-ef 更新到最新版本
+- dotnet ef entity framework 安裝成功會看到一隻獨角獸
+- dotnet ef migrations add instialcreate -o Data/Migrations
+Build started...
+Build succeeded.
+Done. To undo this action, use 'ef migrations remove'
