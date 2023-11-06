@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yuchi\\OneDrive\\桌面\\practice\\整理過後資料\\~~~題庫~~~\\e-commerce 電商題庫\\git_E_Commerce\\API\\API.csproj": {}
+    "C:\\Users\\yuchi\\OneDrive\\桌面\\DEMO\\E-commerce-product-demo\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yuchi\\OneDrive\\桌面\\practice\\整理過後資料\\~~~題庫~~~\\e-commerce 電商題庫\\git_E_Commerce\\API\\API.csproj": {
+    "C:\\Users\\yuchi\\OneDrive\\桌面\\DEMO\\E-commerce-product-demo\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yuchi\\OneDrive\\桌面\\practice\\整理過後資料\\~~~題庫~~~\\e-commerce 電商題庫\\git_E_Commerce\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\yuchi\\OneDrive\\桌面\\DEMO\\E-commerce-product-demo\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\yuchi\\OneDrive\\桌面\\practice\\整理過後資料\\~~~題庫~~~\\e-commerce 電商題庫\\git_E_Commerce\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\yuchi\\AppData\\Roaming\\NuGet\\package",
-        "outputPath": "C:\\Users\\yuchi\\OneDrive\\桌面\\practice\\整理過後資料\\~~~題庫~~~\\e-commerce 電商題庫\\git_E_Commerce\\API\\obj\\",
+        "projectPath": "C:\\Users\\yuchi\\OneDrive\\桌面\\DEMO\\E-commerce-product-demo\\api\\API.csproj",
+        "packagesPath": "C:\\Users\\yuchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yuchi\\OneDrive\\桌面\\DEMO\\E-commerce-product-demo\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
