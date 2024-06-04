@@ -20,26 +20,26 @@
 
 - 列出已安裝的工具名稱與版本：
   ```bash
-dotnet tool list -g
+  dotnet tool list -g
 
 - 更新到最新版本：
   ```bash
-dotnet tool update --global dotnet-ef
+  dotnet tool update --global dotnet-ef
 
 - 安裝成功會看到一隻獨角獸：
   ```bash
-dotnet ef
+  dotnet ef
 
 - 添加初始遷移：
   ```bash
-dotnet ef migrations add initialcreate -o Data/Migrations
+  dotnet ef migrations add initialcreate -o Data/Migrations
 
 - 輸出：
   ```bash
-Build started...
-Build succeeded.
-Done. To undo this action, use 'ef migrations remove'
+  Build started...
+  Build succeeded.
+  Done. To undo this action, use 'ef migrations remove'
 
 - 更新資料庫：
   ```bash
-dotnet ef database update
+  dotnet ef database update
