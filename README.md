@@ -17,23 +17,23 @@
 - 安裝 Entity Framework 工具：  
   ```bash
   dotnet tool install --global dotnet-ef --version 7.0.2
+
 列出已安裝的工具名稱與版本：
-
 dotnet tool list -g
+
 更新到最新版本：
-
 dotnet tool update --global dotnet-ef
+
 安裝成功會看到一隻獨角獸：
-
 dotnet ef
+
 添加初始遷移：
-
 dotnet ef migrations add initialcreate -o Data/Migrations
-輸出：
 
+輸出：
 Build started...
 Build succeeded.
 Done. To undo this action, use 'ef migrations remove'
-更新資料庫：
 
+更新資料庫：
 dotnet ef database update
